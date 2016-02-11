@@ -1,0 +1,37 @@
+{
+  "name": "inky-cli",
+  "version": "1.0.0",
+  "description": "CLI for the Inky email templating language.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zurb/inky-cli.git"
+  },
+  "keywords": [
+    "inky",
+    "cli",
+    "emails",
+    "template"
+  ],
+  "author": "ZURB <foundation@zurb.com> (http://foundation.zurb.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zurb/inky-cli/issues"
+  },
+  "homepage": "https://github.com/zurb/inky-cli#readme",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "chokidar": "^1.4.2",
+    "inky": "^0.4.0",
+    "meow": "^3.7.0",
+    "multiline": "^1.0.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "rimraf": "^2.5.1"
+  }
+}
