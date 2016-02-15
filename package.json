@@ -36,5 +36,6 @@
     "chai": "^3.5.0",
     "mocha": "^2.4.5",
     "rimraf": "^2.5.1"
-  }
+  },
+  "preferGlobal": true
 }
