@@ -28,7 +28,7 @@
   "dependencies": {
     "chalk": "^1.1.1",
     "chokidar": "^1.4.2",
-    "inky": "^0.4.0",
+    "inky": "1.0.0-rc.1",
     "meow": "^3.7.0",
     "multiline": "^1.0.2"
   },
