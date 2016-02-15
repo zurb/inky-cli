@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "CLI for the Inky email templating language.",
   "main": "index.js",
+  "bin": {
+    "inky": "index.js"
+  },
   "scripts": {
     "test": "mocha"
   },
