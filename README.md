@@ -4,6 +4,8 @@
 
 Command-line interface for [Inky](https://github.com/zurb/inky), a templating language for HTML emails created with [Foundation for Emails](http://foundation.zurb.com/emails).
 
+Please report issues with the HTML output to [inky](https://github.com/zurb/inky/issues) instead.
+
 ## Installation
 
 ```bash
