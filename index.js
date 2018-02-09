@@ -20,19 +20,22 @@ var aliases = {
 
 cli = meow(cli);
 
+var src = cli.input.slice(0, -1);
+var dest = cli.input[cli.input.length - 1];
+
 if (cli.flags.watch) {
-  chokidar.watch(cli.input[0]).on('all', function(evt, file) {
+  chokidar.watch(src).on('all', function(evt, file) {
     parse(file);
   });
 }
 else {
-  parse(cli.input[0]);
+  parse(src);
 }
 
 function parse(files) {
   inky({
     src: files,
-    dest: cli.input[1]
+    dest: dest
   }, function() {
     console.log(chalk.magenta(files), 'processed.');
   });
